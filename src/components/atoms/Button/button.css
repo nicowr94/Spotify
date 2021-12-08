@@ -1,0 +1,22 @@
+.a-button {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: inline-block;
+  border: solid 1px var(--gray);
+  color: white;
+  border-radius: 50px;
+  background-color: var(--background-dark);
+  font-size: 1rem;
+  font-weight: var(--font-weight-bold);
+  height: auto;
+  opacity: 0.8;
+}
+.a-button:hover {
+  zoom: 1.02;
+  position: relative;
+  top: -2px;
+  left: 2px;
+  height: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.m-FrontPlayList {
+  padding: 16px;
+  color: #fff;
+  height: 30vh;
+  max-height: 500px;
+  min-height: 280px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.m-FrontPlayList__image {
+  margin-inline-end: 24px;
+  /* width: 192px;
+  min-width: 192px; */
+  height: 232px;
+  min-width: 232px;
+  width: 232px;
+}
+
+.m-FrontPlayList__info__name {
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.m-FrontPlayList__info__title {
+  width: 100%;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+.m-FrontPlayList__info__others {
+  margin-top: 8px;
+}
+
+.m-FrontPlayList__info__others__user {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-transform: none;
+}
+
+.m-FrontPlayList__info__others__count {
+  color: #ffffffb3;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-transform: none;
+}
+
+.m-FrontPlayList__info__others__count:not(:first-child)::before {
+  content: "•";
+  margin: 0px 4px;
+}

@@ -1,0 +1,17 @@
+.p-content {
+  display: flex;
+}
+
+.p-content__layout {
+  width: 100%;
+  background-color: #121212;
+}
+.p-content__layout__buttonPlay {
+  margin: 0;
+  max-width: 1955px;
+  padding: 24px;
+  width: 100%;
+}
+.p-content__layout__playList {
+  margin-bottom: 32px;
+}

@@ -1,0 +1,17 @@
+.a-buttonPlay {
+  background-color: #1db954;
+  color: #fff;
+  height: 56px;
+  width: 56px;
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+}
+
+.a-buttonPlay__svg {
+  height: 28px;
+  width: 28px;
+}

@@ -1,0 +1,56 @@
+.m-CardPlayed {
+  background-color: #171717;
+  border-radius: 2px;
+  padding: 16px;
+}
+
+.m-CardPlayed:hover {
+  background-color: var(--background-gray);
+}
+
+.m-CardPlayed__image {
+  width: 100%;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 24px #00000080;
+}
+
+.m-CardPlayed__svg {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #333333;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 24px #00000080;
+}
+
+.m-CardPlayed__svg__path {
+  fill: #b3b3b3;
+  fill-rule: evenodd;
+}
+
+.m-CardPlayed__info {
+  min-height: 62px;
+  display: flex;
+  flex-direction: column;
+}
+
+.m-CardPlayed__info__title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-transform: none;
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m-CardPlayed__info__subtitle {
+  margin-top: 4px;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-transform: none;
+}

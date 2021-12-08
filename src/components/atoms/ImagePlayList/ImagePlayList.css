@@ -1,0 +1,7 @@
+.ImagePlayList {
+  align-self: flex-end;
+  margin-inline-end: 24px;
+  box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,110 @@
+.m-PlayList__title {
+  margin-bottom: 16px;
+  padding: 0 32px;
+  height: 45px;
+  position: sticky;
+  top: 60px;
+  z-index: 2;
+  color: #b3b3b3;
+  background-color: #121212;
+}
+.m-PlayList__title__items {
+  grid-template-columns: [index] 16px [first] 6fr [var1] 4fr [var2] 3fr [last] minmax(
+      120px,
+      1fr
+    );
+  grid-gap: 16px;
+  display: grid;
+  padding: 0 16px;
+  height: 100%;
+  border-bottom: 1px solid #ffffff1a;
+}
+.m-PlayList__title__item {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 16px;
+}
+
+.m-PlayList__title__item__icon {
+  justify-content: center;
+}
+.m-PlayList__title__item__svg {
+  fill: currentColor;
+}
+
+.m-PlayList__body {
+  color: #b3b3b3;
+  padding: 0 32px;
+}
+
+.m-PlayList__body__items {
+  grid-template-columns: [index] 16px [first] 6fr [var1] 4fr [var2] 3fr [last] minmax(
+      120px,
+      1fr
+    );
+  grid-gap: 16px;
+  display: grid;
+  padding: 5px 16px;
+  height: 100%;
+}
+
+.m-PlayList__body__items:hover {
+  background-color: var(--background-light-2);
+  border-radius: 5px;
+}
+
+.m-PlayList__body__item {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 16px;
+  text-transform: none;
+}
+
+.m-PlayList__body__item__image {
+  margin-right: 16px;
+  width: 40px;
+}
+
+.m-PlayList__body__item__title__song {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.m-PlayList__body__item__options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.m-PlayList__body__item__options__like {
+  height: 16px;
+  width: 16px;
+  background: transparent;
+  fill: #1db954;
+  border: none;
+}
+
+.m-PlayList__body__item__options__menu {
+  height: 16px;
+  width: 16px;
+  background: transparent;
+  border: none;
+  /* opacity: 0; */
+}
+.m-PlayList__body__item__options__menu__svg {
+  fill: currentColor;
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+.m-navigation__login {
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  min-height: 80px;
+  padding: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.m-navigation__login__logo {
+  height: 40px;
+  width: 132px;
+}
+
+.m-navigation__login__options {
+  display: flex;
+  color: white;
+  list-style-type: none;
+}
+.m-navigation__login__item {
+  font-size: 16px;
+  padding: 28px 17px;
+  font-weight: var(--font-weight-bold);
+}
+
+.m-navigation__login__separator {
+  background: currentColor;
+  margin: auto 17px;
+  display: inline-block;
+  height: 16px;
+  width: 1px;
+  color: white;
+}

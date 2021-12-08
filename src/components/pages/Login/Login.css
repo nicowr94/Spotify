@@ -1,0 +1,59 @@
+.p-login_container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-login {
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-color: #2941ab;
+  background-size: 175%;
+  background-position: 46% 4%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  min-height: 846px;
+  height: 100vh;
+}
+
+.p-login__container__mesagge__title {
+  width: 744px;
+  font-size: 70px;
+  line-height: 166px;
+  padding-bottom: 40px;
+  letter-spacing: -0.04em;
+}
+
+.p-login__container__mesagge {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  color: #1ed760;
+}
+
+.p-login__container__mesagge__text {
+  width: 800px;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+
+.p-login__container__mesagge__button {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  background-color: var(--background-base, #1ed760);
+  color: #2941ab;
+  border-radius: 500px;
+  font-size: inherit;
+  padding: 14px 32px;
+  --background-base: #1ed760;
+}
+.p-login__container__mesagge__button:hover {
+  --background-base: #2de26d;
+  cursor: pointer;
+}
